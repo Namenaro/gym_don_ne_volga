@@ -6,8 +6,6 @@ import numpy as np
 from bath.world import World
 
 
-
-
 class DonEnv(gym.Env):
     metadata = {'render.modes': ['human', 'ansi']}
 
